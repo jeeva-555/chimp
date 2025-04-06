@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-purpley:#DADBF1;
+  --font-archivo:"Archivo", "sans-serif";
+  --font-noto:"Noto Serif", "serif";
+}
+
+body{
+  background-color: #FFE038;
+}
