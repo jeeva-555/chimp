@@ -32,7 +32,7 @@ function Chimpnavbar() {
 
             <div className='lg:flex gap-5 items-center hidden font-bold relative'>
                 <IoSearch  size={30} onClick={searchBox} className='hover:text-red-500'/>
-                <input type="text" placeholder='Search' className ={` bg-white py-2 px-4 rounded-full ${disp} absolute top-15  right-80 `}/>
+                <input type="text" placeholder='Search' className ={` bg-white py-2 px-4 rounded-full ${disp} `}/>
                 <button className='px-6 cursor-pointer capitalize py-2 border-solid border-1 border-black-200 hover:bg-black hover:text-[#FFE038] '>log in</button>
                 <button className='px-4 capitalize py-2 bg-[#007C88] text-white hover:opacity-75 cursor-pointer'>sign up free</button>
             </div>
